@@ -1,0 +1,120 @@
+﻿ul { 
+  	list-style-type: none; 
+    margin: 10px; 
+    padding: 0; 
+    margin-bottom: 10px;
+}
+/*页面的Header样式*/
+.cart-header{
+	height: 80px;
+	width: 100%;
+	line-height: 80px;
+	text-align: center;
+	font-size: 2em;
+}
+/*页面的商品列表样式*/
+.cart-goodslist{
+	width: 80%;
+	float: left;
+}
+/*页面的购物车列表样式*/
+.cart-cartlist{
+	width: 20%;
+	min-width: 300px !important;
+	height: 600px;
+	border: 2px solid #007FFF;
+	position: absolute;
+	right: 10px;
+	top: 100px;
+	border-radius: 5px;
+}
+/*购物车中的Header样式*/
+.cart-cartlist > div{
+	margin: 5px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	border-bottom: 1px solid #EDEDED;
+}
+/*购物车的商品列表样式*/
+.cart-cartlist > ul{
+	height: 500px;
+	overflow: auto;
+}
+/*商品列表区域显示产品的样式*/
+.goodshow{
+	float: left;
+	width: 150px;
+	height: 200px;
+	margin: 5px;
+	border: 1px solid #DDDDDD;
+}
+/*商品列表区域显示产品图片的样式*/
+.goodshow img{
+	width: 140px;
+	height: 140px;
+	margin: 5px;
+	padding: 0;
+	float: left;
+}
+/*商品列表区域显示产品名称的样式*/
+.goodshow .showtitle{
+	float: left;
+	width: 80px;
+	margin: 5px;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+}
+/*商品列表区域显示产品价格的样式*/
+.goodshow .showprice{
+	float: right;
+	width: 50px;
+	margin: 5px;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+}
+/*购物车区域显示产品的样式*/
+.cartshow{
+	height: 60px;
+	line-height: 60px;	
+	background: #EEEEEE;
+	margin: 5px;
+	border-radius: 5px;
+}
+/*购物车区域显示产品图片的样式*/
+.cartshow img {
+	width: 40px;
+	height: 40px;
+	margin: 10px 3px 10px 3px;
+	float: left;
+}
+/*购物车区域显示产品名称的样式*/
+.cartshow .showtitle{
+	min-width: 80px;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px 3px 10px 3px;
+	float: left;
+}
+/*购物车区域显示产品价格的样式*/
+.cartshow .showprice{
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px 10px 10px 3px;
+	float: right;
+}
+/*购物车关闭按钮*/
+.closebtn{
+	float: right;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
